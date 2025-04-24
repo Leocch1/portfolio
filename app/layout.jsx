@@ -22,29 +22,31 @@ export const metadata = {
     images: [
       {
         url: "/leocchi-new-logo.jpg",
-        width: 500, // Update as needed
-        height: 800, // Update as needed
+        width: 500,
+        height: 800,
         alt: "Logo for Portfolio",
       },
     ],
   },
 };
 
-
-
 export default function RootLayout({ children }) {
- 
   return (
-    
     <html lang="en">
-      <body className={`${jetbrainsMono.variable} page bg-site bg-cover`}>
+      <body className={`${jetbrainsMono.variable} page bg-site bg-cover flex flex-col min-h-screen`}>
         <Header />
         <StairTransition />
 
-          <PageTransition className="flex-grow">{children}</PageTransition>
-        <TopLeftImg/>
-        <Circles />
+        <main className="flex-grow">
+          <PageTransition>{children}</PageTransition>
+        </main>
 
+        <footer className="text-center text-white text-sm py-6 opacity-60">
+          © {new Date().getFullYear()} Leo Louise E. Jimenez. All rights reserved.
+        </footer>
+
+        <TopLeftImg />
+        <Circles />
       </body>
     </html>
   );
