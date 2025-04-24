@@ -112,7 +112,7 @@ const projects = [
             },
         ],
         image: "/assets/work/thumb5.jpg",
-        live:"https://github.com/Leolouise26/E-commerce-hoopx"
+        live:"https://github.com/Leocch1/daily-sweets"
     },
     {
         num: "06",
@@ -137,7 +137,7 @@ const projects = [
             },
         ],
         image: "/assets/work/thumb6.jpg",
-        live:"https://github.com/Leolouise26/E-commerce-hoopx"
+        live:"https://github.com/Leocch1/enrollment-system"
     },
 ]
 
