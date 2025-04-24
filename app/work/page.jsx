@@ -92,6 +92,53 @@ const projects = [
         image: "/assets/work/thumb4.webp",
         live:"https://github.com/Leolouise26/E-commerce-hoopx"
     },
+    {
+        num: "05",
+        category: "E-commerce website",
+        title: "Daily Sweets",
+        description: "Daily Sweets is your go-to online store for indulging in delightful treats every day. From artisanal chocolates and freshly baked pastries to unique candies and seasonal confections, we bring sweetness straight to your doorstep. Whether you're satisfying a personal craving or sending a thoughtful gift, Daily Sweets makes every day a little sweeter.",
+        stack: [
+            {
+                name:"Django"
+            },
+            {
+                name:"Python"
+            },
+            {
+                name:"React"
+            },
+            {
+                name:"Tailwind CSS"
+            },
+        ],
+        image: "/assets/work/thumb5.jpg",
+        live:"https://github.com/Leolouise26/E-commerce-hoopx"
+    },
+    {
+        num: "06",
+        category: "Enrollment website",
+        title: "CVSU Enrollment System",
+        description: "CVSU Online Enrollment System is a streamlined digital platform designed to simplify and enhance the enrollment process at Cavite State University. It allows students to register for courses, manage schedules, and access academic records conveniently online — reducing paperwork, long lines, and manual errors for a more efficient and student-friendly experience.",
+        stack: [
+            {
+                name:"Laravel"
+            },
+            {
+                name:"PHP"
+            },
+            {
+                name:"CSS 3"
+            },
+            {
+                name:"Javascript"
+            },
+            {
+                name:"MySQL"
+            },
+        ],
+        image: "/assets/work/thumb6.jpg",
+        live:"https://github.com/Leolouise26/E-commerce-hoopx"
+    },
 ]
 
 const Work = () => {
